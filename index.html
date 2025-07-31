@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetMetric</title>
+    <link  rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style2.css" /> -->
+  </head>
+  <body>
+
+    <div class="maincontainer">
+
+        <div class="container">
+            <div class="left">
+                <h1>LeetMetric</h1>
+                
+                <div class="user-container">
+                    <p>Enter your username below:</p>
+                    
+                    <input
+                    type="text"
+                    placeholder="Enter your username here"
+                    id="user-input"
+                    />
+                    <div class="msg"></div>
+                    <button id="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stats-container">
+                <h1 id="usernameheading"></h1>
+                
+                <div class="stats-card">
+                    <!-- from js code -->
+                </div>
+                <div class="progress">
+                    <div class="progress-item">
+                        <div class="easy-progress circle">
+                            <span class="easy-label"></span>
+                            <p id="easy"></p>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="medium-progress circle">
+                            <span class="medium-label"></span>
+                            <p id="medium"></p>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="hard-progress circle">
+                            <span class="hard-label"></span>
+                            <p id="hard"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
